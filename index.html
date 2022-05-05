@@ -1,0 +1,31 @@
+<html>
+<head>
+<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Special+Elite&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Special+Elite&family=Work+Sans:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="col-xs-12 header_div text-center">
+    <h2>Sound controlled animals</h2>
+    <p>Note:-play different sounds like sound of dogs,cats,lions and cows etc to make the animals move</p>
+    </div>
+    <div class="main_div">
+          <center>
+    <br>
+    <button class="btn btn-warning" onclick="start_classification()">Start</button>
+    <h3 id="result_label">I can Hear</h3>
+    <h3 id="result_confidence">Accuracy:-</h3>
+    <br>
+    <img src="Listen.gif" width="300" height="300" id="animal_image">
+    </center>
+    </div>
+    <div class="Copyright-footer">developed by-Ashwin Badhrinarayanan</div>
+    <script src="main.js"></script>
+      </body>
+</html>
